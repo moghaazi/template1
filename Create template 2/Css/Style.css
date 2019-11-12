@@ -1,0 +1,79 @@
+/* ==================== Global ====================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: #333;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+
+
+/* ==================== Navbar ====================================== */
+.navbar {
+  height: 0;
+  color: #dddddd;
+}
+
+.navbar .logo {
+  float: left;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.navbar .links {
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.navbar .links li {
+  display: inline-block;
+  padding: 10px 0;
+  margin: 15px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.navbar .links li.active,
+.navbar .links li:hover {
+  color: #1abc9c;
+  border-bottom: 2px solid #1abc9c
+}
+
+
+
+/* ==================== Header ====================================== */
+.header {
+  background: url(https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+/* .header .bx-wrapper {
+  height: 100%;
+}
+
+.header .bx-wrapper .bx-viewport {
+  box-shadow: none;
+  border: 0;
+  background: none;
+  height: 100% !important;
+}
+
+.header .bxSlider {
+  text-align: center;
+  color: #000;
+} */
